@@ -1,19 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
 #container {
-    background-color: #00FF5A;
+    background-color: white;
     width: 1280px;
     height: 800px;
     margin: auto;
     float: relative;
 }
 
+#toppseller {
+    font-size: 4em;
+    font-family: Play;
+    margin: 0px 0px 0px 30px;
+    color: #FF4088;
+    text-align: center;
+}
+
 nav ul li {
     list-style: none;
+    font-family: Play;
 
 }
-#list {
+.list li {
     list-style: none;
+    font-family: Play;
+    text-align: center;
+    font-size: 2em;
+    color: #14CCBD;
 }
-
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 150‰;
+ }
 
 .clr {
     clear: both;
@@ -21,9 +41,10 @@ nav ul li {
 nav ul li a {
     color: #FFFF00;
     font-size: 2em;
+    font-family: Play;
 }
 
-img {
+#logo {
     height: 130px;
     width: auto;
     float: left;
@@ -35,6 +56,7 @@ nav {
     height: 587px;
     float: left;
     color: #FFFF00;
+    font-size: 1.5em;
 }
 
 header {
@@ -42,6 +64,23 @@ header {
     width: 1280px;
     height: 150px;
 }
+
+footer {
+    background-color: #00FF5A;
+    width: 1280px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    color: #FF4088;
+}
+
+footer p {
+    display: inline;
+    font-family: play;
+    font-size: 3em;
+    padding: 10px 20px 10px 20px;
+}
+
 a {
     text-decoration: none;
 }
