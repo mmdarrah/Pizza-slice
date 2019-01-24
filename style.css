@@ -3,14 +3,44 @@
     width: 1280px;
     height: 800px;
     margin: auto;
+    float: relative;
 }
-#logo {
+
+nav ul li {
+    list-style: none;
 
 }
+#list {
+    list-style: none;
+}
+
+
+.clr {
+    clear: both;
+}
+nav ul li a {
+    color: #FFFF00;
+    font-size: 2em;
+}
+
+img {
+    height: 130px;
+    width: auto;
+    float: left;
+}
+
+nav {
+    background-color: #FF4088;
+    width: 150px;
+    height: 587px;
+    float: left;
+    color: #FFFF00;
+}
+
 header {
     background-color: #14CCBD;
     width: 1280px;
-    height: 300px;
+    height: 150px;
 }
 a {
     text-decoration: none;
