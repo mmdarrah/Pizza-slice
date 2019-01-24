@@ -1,0 +1,17 @@
+#container {
+    background-color: #00FF5A;
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+}
+#logo {
+
+}
+header {
+    background-color: #14CCBD;
+    width: 1280px;
+    height: 300px;
+}
+a {
+    text-decoration: none;
+}
